@@ -1,0 +1,39 @@
+{
+	"name": "starter-package",
+	"version": "1.0.0",
+	"description": "A starting point to build Web Games using CreateJS and using Webpack 5 / Babel for bundling.",
+	"main": "index.js",
+	"scripts": {
+		"setup": "npm install; npm run build:debug;",
+		"build:debug": "webpack --mode development",
+		"build:release": "webpack --mode production",
+		"watch": "webpack --watch --mode development",
+		"start": "webpack serve --open --mode development"
+	},
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@bitbucket.curiousmedia.com:7999/charleshansen/starter-project.git"
+	},
+	"keywords": [],
+	"author": "Charles Hansen",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.18.13",
+		"@babel/plugin-transform-runtime": "^7.18.10",
+		"@babel/preset-env": "^7.18.10",
+		"@babel/runtime-corejs3": "^7.18.9",
+		"babel-loader": "^8.2.5",
+		"clean-webpack-plugin": "^4.0.0",
+		"copy-webpack-plugin": "^8.1.1",
+		"@types/tweenjs": "^1.0.4",
+		"css-loader": "^5.2.7",
+		"html-webpack-plugin": "^5.5.0",
+		"mini-css-extract-plugin": "^1.6.2",
+		"pixi.js": "7.2.4",
+		"webpack": "^5.74.0",
+		"webpack-cli": "^4.10.0",
+		"webpack-dev-server": "^4.10.0",
+		"matter-js": "0.19.0",
+		"matter-dom-plugin": "1.0.0"
+	}
+}

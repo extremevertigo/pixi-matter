@@ -1,0 +1,45 @@
+html, body {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+#gameContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#gameContainer canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#font-preloader {
+	position: absolute;
+	top: 0;
+	left: -9999px;
+	color: white;
+}
+
+#font-preloader{
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+#block{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }

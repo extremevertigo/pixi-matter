@@ -1,0 +1,96 @@
+.edit-box
+{
+	font-family : arial;
+	font-size : 14px;
+	position : absolute;
+	z-index : 10;
+	padding : 8px;
+	background-color : rgba(0, 0, 0, 0.3);
+	width : 300px;
+}
+.edit-box h3
+{
+	margin : 4px 0;
+	cursor : pointer;
+}
+.edit-box dl
+{
+	margin : 0;
+	clear : left;
+}
+.edit-box dl dt
+{
+	float : left;
+	clear : left;
+	padding : 2px 0;
+	width : 120px;
+}
+.edit-box dl dd
+{
+	float : left;
+	margin : 0;
+	width : 164px;
+}
+.edit-box dl dd input { margin : 2px 0; }
+
+.edit-box.hierarchy ul:first-child
+{
+	max-height : 420px;
+	overflow-y : auto;
+}
+.edit-box.hierarchy ul
+{
+	list-style : none;
+	padding : 0;
+	background-color : rgba(0, 0, 0, 0.3);
+}
+.edit-box.hierarchy ul ul 
+{
+	margin-left : 12px;
+	background-color : none;
+}
+.edit-box.hierarchy ul li 
+{
+	cursor : pointer;
+	color : #fff;
+}
+.edit-box.hierarchy ul li span
+{
+	min-width : 8px;
+	display : inline-block;
+	padding : 4px;
+}
+.edit-box.hierarchy ul li div 
+{ 
+	display : inline-block;
+	padding : 4px;
+	padding-left : 0;
+}
+.edit-box.hierarchy .placeholder
+{
+	background-color : rgba(255, 255, 255, 0.3);
+}
+.edit-box.hierarchy .selected
+{
+	background-color : rgba(255, 255, 0, 0.3);
+}
+
+.edit-box select { width : 100%; }
+
+.edit-box.display-object ul
+{
+	list-style-type : none;
+	margin : 0 0 2px 0;
+	padding : 0;
+}
+.edit-box.display-object ul li 
+{
+	display : inline-block;
+	text-decoration : none;
+	padding : 8px;
+	cursor : pointer;
+}
+.edit-box.display-object ul li.active
+{
+	background-color : rgba(255, 255, 0, 0.3);
+}

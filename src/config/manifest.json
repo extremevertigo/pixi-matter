@@ -1,0 +1,4 @@
+[   
+    { "tags": ["Preload"], "name": "Background", "srcs": "assets/images/placement-title-bg-REMOVE-ME.png"},
+    { "tags": ["Preload"], "name": "TitleSS", "srcs": "assets/spritesheets/title-ss.json"}
+]
